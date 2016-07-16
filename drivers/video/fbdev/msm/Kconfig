@@ -123,7 +123,10 @@ config FB_MSM_MDSS_XLOG_DEBUG
 	into an internal buffer (this avoids logging overhead).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 14eb12d39518... KCAL Control
 
 config LIVE_DISPLAY
 	depends on FB_MSM_MDSS && CUSTOM_ROM
