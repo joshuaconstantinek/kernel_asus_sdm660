@@ -67,7 +67,10 @@ obj-$(CONFIG_FB_MSM_MDSS) += mdss_fb.o mdss_util.o
 obj-$(CONFIG_LIVE_DISPLAY) += mdss_livedisplay.o
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 14eb12d39518... KCAL Control
 =======
 >>>>>>> 14eb12d39518... KCAL Control
 obj-$(CONFIG_FB_MSM_MDSS_KCAL_CTRL) += mdss_mdp_kcal_ctrl.o
