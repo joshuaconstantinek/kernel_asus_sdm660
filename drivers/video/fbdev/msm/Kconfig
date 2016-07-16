@@ -122,17 +122,6 @@ config FB_MSM_MDSS_XLOG_DEBUG
 	driver during fatal errors and enable some display-driver logging
 	into an internal buffer (this avoids logging overhead).
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 14eb12d39518... KCAL Control
-=======
->>>>>>> 14eb12d39518... KCAL Control
-=======
->>>>>>> 14eb12d39518... KCAL Control
 
 config LIVE_DISPLAY
 	depends on FB_MSM_MDSS && CUSTOM_ROM
@@ -147,5 +136,4 @@ config FB_MSM_MDSS_KCAL_CTRL
 	  Enable sysfs for post-processing control of mdss-mdp5 display
 	  controllers in MDSS.
 
->>>>>>> 14eb12d39518... KCAL Control
 endif
