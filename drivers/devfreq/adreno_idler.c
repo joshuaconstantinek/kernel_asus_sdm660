@@ -53,9 +53,9 @@ module_param_named(adreno_idler_idlewaitms, idlewaitms, int, 0664);
 static int downdifferenctial = 20;
 module_param_named(adreno_idler_downdifferenctial, downdifferenctial, int, 0664);
 
-/* Master switch to activate whole routine */
-static int adreno_idler_active = 1;
-module_param_named(adreno_idler_active, adreno_idler_active, int, 0664);
+/* Master switch to activate the whole routine */
+static bool adreno_idler_active = true;
+module_param_named(adreno_idler_active, adreno_idler_active, bool, 0664);
 
 static inline int64_t get_time_inms(void) {
 	int64_t tinms;
